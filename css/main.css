@@ -4,9 +4,12 @@
 
 
 
+a{
+    text-decoration: none;
+    font-family: arial;
+}
 
-
-@media (max-width:640px){
+@media (min-width:320px){
 
 
 h3{
@@ -49,10 +52,35 @@ button:hover{
     transition: 350ms ease-out;
 }
 
-a{
-    margin-left: 63px ;
+
+.link{
+    font-size: 13px;
+    margin-left: 55px ;
     text-decoration: none;
     color: rgb(20, 32, 54);
+}
+
+.link:hover{
+    color: rgb(80, 0, 73);
+}
+
+.create{
+    font-size: 13px;
+    font-family: arial;
+    align-items: center;
+    height:25px ;
+    text-align: center;
+    width: 225px;
+    display: flex;
+    background:rgb(118, 30, 201);
+    color: aliceblue;
+    margin-left: -0.5px;
+    justify-content: center;
+}
+
+.create:hover{
+    background: rgb(153, 57, 243) ;
+    transition: 350ms ease-out;
 }
 
 .container{
@@ -60,7 +88,7 @@ a{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    margin-top: 40%;
+    margin-top: 140px;
     align-items: center;
     width: 250px;
     height: 250px;
@@ -75,5 +103,355 @@ a{
     display: flex;
     justify-content: center;
 }
+
+::placeholder{
+    padding-left: 5px;
+}
+
+}
+
+@media (min-width:768px) {
+    
+    h3{
+        font-size: 35px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        font-family: arial;
+        font-style:unset;
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    input{
+        margin-bottom: 10px;
+        outline: none;
+        inset: 0;
+        border: solid 1px  rgb(162, 123, 204);
+        height: 25px;
+        width: 300px;
+    }
+    
+    input:focus{
+        border: solid 1px rgb(97, 0, 189);
+        transition: 200ms ease-in-out;
+        color: rgb(58, 58, 58);
+        
+    }
+    
+    button{
+        height: 25px;
+        width: 305px;
+        color: aliceblue;
+        border-radius:2px;
+        background-color:rgb(87, 26, 145);
+        margin-bottom: 10px;
+        outline: none;
+        border: 0px;
+    }
+    
+    button:hover{
+        background: rgb(41, 8, 71) ;
+        transition: 350ms ease-out;
+    }
+    
+    .link{
+        margin-left: 90px ;
+        text-decoration: none;
+        color: rgb(20, 32, 54);
+    }
+    
+    .link:hover{
+        color: rgb(80, 0, 73);
+    }
+
+    .create{
+        width: 305px;
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 120px;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: rgb(172, 140, 207);
+        box-shadow:1px 1px 1px 1px rgb(42, 45, 48);
+    }
+    
+    .container2{
+        background-color: rgb(230, 167, 255);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    ::placeholder{ 
+        padding-left: 5px;
+    }
+
+}
+
+@media (min-width:1024px){
+
+
+    h3{
+        font-size: 35px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        font-family: arial;
+        font-style:unset;
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    input{
+        margin-bottom: 10px;
+        outline: none;
+        inset: 0;
+        border: solid 1px  rgb(162, 123, 204);
+        height: 25px;
+        width: 300px;
+    }
+    
+    input:focus{
+        border: solid 1px rgb(97, 0, 189);
+        transition: 200ms ease-in-out;
+        color: rgb(58, 58, 58);
+        
+    }
+    
+    button{
+        height: 25px;
+        width: 305px;
+        color: aliceblue;
+        border-radius:2px;
+        background-color:rgb(87, 26, 145);
+        margin-bottom: 10px;
+        outline: none;
+        border: 0px;
+    }
+    
+    button:hover{
+        background: rgb(41, 8, 71) ;
+        transition: 350ms ease-out;
+    }
+    
+    .link{
+        margin-left: 90px ;
+        text-decoration: none;
+        color: rgb(20, 32, 54);
+    }
+    
+    .link:hover{
+        color: rgb(80, 0, 73);
+    }
+
+    .create{
+        width: 305px;
+    }
+    
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 120px;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: rgb(172, 140, 207);
+        box-shadow:1px 1px 1px 1px rgb(42, 45, 48);
+    }
+    
+    .container2{
+        background-color: rgb(230, 167, 255);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    ::placeholder{ 
+        padding-left: 5px;
+    }
+
+}
+
+@media (min-width:1280px){
+
+    
+    h3{
+        font-size: 35px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        font-family: arial;
+        font-style:unset;
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    input{
+        margin-bottom: 10px;
+        outline: none;
+        inset: 0;
+        border: solid 1px  rgb(162, 123, 204);
+        height: 25px;
+        width: 300px;
+    }
+    
+    input:focus{
+        border: solid 1px rgb(97, 0, 189);
+        transition: 200ms ease-in-out;
+        color: rgb(58, 58, 58);
+        
+    }
+    
+    button{
+        height: 25px;
+        width: 305px;
+        color: aliceblue;
+        border-radius:2px;
+        background-color:rgb(87, 26, 145);
+        margin-bottom: 10px;
+        outline: none;
+        border: 0px;
+    }
+    
+    button:hover{
+        background: rgb(41, 8, 71) ;
+        transition: 350ms ease-out;
+    }
+    
+    .link{
+        margin-left: 90px ;
+        text-decoration: none;
+        color: rgb(20, 32, 54);
+    }
+    
+    .link:hover{
+        color: rgb(80, 0, 73);
+    }
+
+    .create{
+        width: 305px;
+    }
+    
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 120px;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: rgb(172, 140, 207);
+        box-shadow:1px 1px 1px 1px rgb(42, 45, 48);
+    }
+    
+    .container2{
+        background-color: rgb(230, 167, 255);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    ::placeholder{ 
+        padding-left: 5px;
+    }
+
+}
+
+@media (min-width:1366px){
+
+        
+    h3{
+        font-size: 35px;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        font-family: arial;
+        font-style:unset;
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    input{
+        margin-bottom: 10px;
+        outline: none;
+        inset: 0;
+        border: solid 1px  rgb(162, 123, 204);
+        height: 25px;
+        width: 300px;
+    }
+    
+    input:focus{
+        border: solid 1px rgb(97, 0, 189);
+        transition: 200ms ease-in-out;
+        color: rgb(58, 58, 58);
+        
+    }
+    
+    button{
+        height: 25px;
+        width: 305px;
+        color: aliceblue;
+        border-radius:2px;
+        background-color:rgb(87, 26, 145);
+        margin-bottom: 10px;
+        outline: none;
+        border: 0px;
+    }
+    
+    button:hover{
+        background: rgb(41, 8, 71) ;
+        transition: 350ms ease-out;
+    }
+    
+    .link{
+        margin-left: 95px ;
+        text-decoration: none;
+        color: rgb(20, 32, 54);
+    }
+    
+    .link:hover{
+        color: rgb(80, 0, 73);
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-top: 120px;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: rgb(172, 140, 207);
+        box-shadow:1px 1px 1px 1px rgb(42, 45, 48);
+    }
+    
+    .container2{
+        background-color: rgb(230, 167, 255);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    ::placeholder{ 
+        padding-left: 5px;
+    }
+
 
 }
